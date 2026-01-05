@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: src         # LOGICAL name (dbt-only)
+    description: Booking.com raw data
+    database: RAW_DATA        # Snowflake RAW_DATABASE
+    schema: BOOKINGCOM        # Snowflake SCHEMA
+    tables:
+      - name: BOOKINGS
+      - name: HOSTS
+      - name: LISTINGS
+
