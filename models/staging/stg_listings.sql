@@ -1,2 +1,2 @@
 select *
-from {{ source('src', 'BOOKINGS') }}
+from {{ source('src', 'LISTINGS') }}
